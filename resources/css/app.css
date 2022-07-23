@@ -6,7 +6,7 @@
 
 @import "button.css";
 
-/* @import "sidebar.css"; */
+@import "sidebar.css";
 
 .flex::before,
 .flex::after {
