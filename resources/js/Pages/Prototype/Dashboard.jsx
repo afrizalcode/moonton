@@ -6,13 +6,13 @@ import MovieCard from "@/Components/MovieCard";
 
 export default function Dashboard(){
     const flickityOptions = {
-        "cellAlign": "left",
-        "contain": true,
-        "groupCells": 1,
-        "wrapAround": false,
-        "pageDots": false,
-        "prevNextButtons": false,
-        "draggable": ">1",
+        cellAlign: "left",
+        contain: true,
+        groupCells: 1,
+        wrapAround: false,
+        pageDots: false,
+        prevNextButtons: false,
+        draggable: ">1",
     }
 
     return (
