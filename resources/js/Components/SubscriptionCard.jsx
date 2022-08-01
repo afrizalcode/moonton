@@ -1,6 +1,14 @@
-import Button from "@/Components/Button"
+import Button from "@/Components/Button";
 
-export default function SubscriptionCard({ id, name, price, durationInMonth, feature, isPremium, onSelectSubscription }) {
+export default function SubscriptionCard({ 
+    id, 
+    name, 
+    price, 
+    durationInMonth, 
+    feature, 
+    isPremium, 
+    onSelectSubscription 
+}) {
     return (
         <>
         
