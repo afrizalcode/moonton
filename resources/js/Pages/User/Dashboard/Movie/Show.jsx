@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 export default function Show({movie}) {
 
     return (
-        <section className="mx-auto w-screen h-screen relative watching-page font-poppins bg-form-bg" id="stream">
+        <section className="mx-auto w-screen h-screen relative watching-page font-poppins bg-purple-500" id="stream">
             
             <div className="pt-[100px]">
                 <ReactPlayer 
