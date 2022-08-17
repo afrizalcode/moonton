@@ -1,4 +1,3 @@
-// import { Link } from "@inertiajs/inertia-react";
 import { Link } from "@inertiajs/inertia-react";
 
 export default function MenuItem({
@@ -13,7 +12,7 @@ export default function MenuItem({
 
         <Link 
             href={link? route(link) : null}
-            className={`side-link ${isActive && "active"}`} 
+            className={`side-link text-white ${isActive && "active"}`} 
             method={method} 
             as="button"  
         >

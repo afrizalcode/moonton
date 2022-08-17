@@ -4,14 +4,14 @@ import { UserMenu, UserOthers } from "./MenuList";
 
 export default function Sidebar({ auth }) {
     return (
-        <aside className="fixed z-50 w-[300px] h-full">
+        <aside className="fixed z-50 w-[300px] h-full bg-purple-500">
             <div className="flex flex-col p-[30px] pr-0 border-r border-gray-[#F1F1F1] overflow-y-auto h-full">
                 <a href="/">
-                    <img src="/images/moonton.svg" alt="" />
+                    <img src="/images/moonton-white.svg" alt="" />
                 </a>
                 <div className="links flex flex-col mt-[60px] h-full gap-[50px]">
                     <div>
-                        <div className="text-gray-1 text-sm mb-4">Menu</div>
+                        <div className="text-white font-bold text-sm mb-4">Menu</div>
                         {UserMenu.map((menu, index) => (
                             <MenuItem
                                 key={`${index}-${menu.text}`}
@@ -25,7 +25,7 @@ export default function Sidebar({ auth }) {
                         ))}
                     </div>
                     <div>
-                        <div className="text-gray-1 side-link mb-4">Others</div>
+                        <div className="text-white font-bold side-link mb-4">Others</div>
                         {UserOthers.map((menu, index) => (
                             <MenuItem
                                 key={`${index}-${menu.text}`}

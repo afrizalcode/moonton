@@ -13,6 +13,15 @@
     display: none !important;
 }
 
+.bg-log {
+    background-image: linear-gradient(to right, #581C87, #A855F7);
+}
+
+input.top-search {
+    border-color: #9333ea !important;
+    color: black !important;
+}
+
 @layer components {
     [type="text"],
     [type="email"],
